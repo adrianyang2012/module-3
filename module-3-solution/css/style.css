@@ -9,8 +9,10 @@ h2 {
   font-size:1.5em;
 }
 .item{
+  float:left;
   width:200px;
-  margin: 100px;
+  margin-top: 20px;
+  margin-right:10px;
   border:1px;
   background-color:yellow;
 }
