@@ -10,16 +10,17 @@ h2 {
 }
 .item{
   float:left;
-  width:200px;
-  height:200px;
   margin-top: 20px;
   margin-left:10px;
   margin-right:10px;
   border:1px;
   background-color:yellow;
 }
-
+button {
+ width:100px;
+ height:100px;
 }
+
 .container{
   height:100%;
   width:100%;
