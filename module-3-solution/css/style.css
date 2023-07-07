@@ -9,6 +9,7 @@ h2 {
   font-size:1.5em;
 }
 .item{
+  width:200px;
   margin: 100px;
   border:1px;
   background-color:yellow;
