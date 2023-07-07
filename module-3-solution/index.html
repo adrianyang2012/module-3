@@ -1,24 +1,54 @@
-<!Doctype-html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>module 3 solution</title>
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <script src="js/thing.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  
+<style>
+nav {
+  background-color: blue;
+}
+span {
+  width:100px;
+  height:100px;
+}
+h2 {
+  font-size:1.5em;
+}
+.item{
+  float:left;
+  margin-top: 20px;
+  margin-left:10px;
+  margin-right:10px;
+  border:1px;
+  background-color:yellow;
+}
+button {
+ width:100px;
+ height:100px;
+}
+
+.container{
+  height:100%;
+  width:100%;
+  margin-top:100px;
+}
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<html>
-  <body>
-    <header>
+<body>
+<header>
     <nav id="navbar" class="navbar navbar-default">
       <h1 class="navbar-brand"> The Carnival!</h1>
-  <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  <div class="dropdown visible-xs">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" visible-sm>
     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 
 
   </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+  <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
     <li><p> resturant</p></li>
     <li><p> snack shack</p></li>
     <li><p> drinks</p></li>
@@ -34,3 +64,4 @@
     </div>
   </body>
 </html>
+
