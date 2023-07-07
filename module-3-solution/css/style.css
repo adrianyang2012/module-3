@@ -4,6 +4,9 @@ nav {
 ul {
   width:100%;
 }
+p {
+  text-align: center;
+}
 span {
   width:100px;
   height:100px;
