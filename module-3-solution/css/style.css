@@ -1,6 +1,9 @@
 nav {
   background-color: blue;
 }
+ul {
+  width:100%;
+}
 span {
   width:100px;
   height:100px;
