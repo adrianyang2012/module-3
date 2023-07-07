@@ -11,7 +11,9 @@ h2 {
 .item{
   float:left;
   width:200px;
+  height:200px;
   margin-top: 20px;
+  margin-left:10px;
   margin-right:10px;
   border:1px;
   background-color:yellow;
