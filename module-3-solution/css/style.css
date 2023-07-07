@@ -5,13 +5,15 @@ span {
   width:100px;
   height:100px;
 }
+h2 {
+  font-size:1.5em;
+}
 .item{
   margin: 100px;
   border:1px;
   background-color:yellow;
 }
-body{
-  background-color: aqua;
+
 }
 .container{
   height:100%;
