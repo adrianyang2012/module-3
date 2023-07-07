@@ -10,7 +10,7 @@ h2 {
 }
 .item{
   float:left;
-  width:100px;
+  width:500px;
   overflow:auto;
   margin-top: 20px;
   margin-left:10px;
